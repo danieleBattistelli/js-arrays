@@ -27,7 +27,7 @@ console.log(longNames);
 // 3. Rimuovi 'Ed' dall'array teachers
 console.log("------------------")
 console.log("Esercizio 3")
-
+console.log(teachers);
 const arrayMenoEd = teachers.filter
 (function(teachers){return teachers !== "Ed"})
 console.log(arrayMenoEd);
